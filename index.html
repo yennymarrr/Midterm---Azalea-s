@@ -3,7 +3,7 @@
 <head>
     <title>Azalea's</title>
     <style>
-                nav {
+        nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -11,24 +11,29 @@
             background-color: white;
             color: white;
         }
+
         .menu {
             list-style-type: none;
             margin: 0;
             padding: 0;
             display: flex;
         }
+
         .menu li {
             margin-right: 15px;
         }
-.menu a {
-    color: pink;
-    text-decoration: none;
-}
+
+        .menu a {
+            color: pink;
+            text-decoration: none;
+        }
+
         .logo img {
             max-height: 40px;
         }
+
         .hero {
-            background-image: url('images/Hero img.png');
+            background-image: url(images/Heroimg.jpeg);
             background-size: cover;
             background-position: center;
             height: 400px;
@@ -42,6 +47,15 @@
         .hero h1 {
             font-size: 2.5em;
             margin: 0;
+        }
+        .top-picks {
+            text-align: center;
+            padding: 50px;
+            background-color: white; 
+        }
+
+        .top-picks h2 {
+            color: pink; 
         }
     </style>
 </head>
@@ -58,5 +72,10 @@
             <li><a href="#">Shop</a></li>
         </ul>
     </nav>
+    <div class="top-picks">
+        <h2 style="color: pink;">Top Picks</h2>
+        <p>Explore our top picks and discover the finest dishes on our menu.</p>
+    </div>
+
 </body>
 </html>
